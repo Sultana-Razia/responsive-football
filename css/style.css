@@ -127,4 +127,27 @@ body{
 }
 
 /* footer area styles */
-
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 118px;
+    margin-top: 153px;
+}
+.footer-area img{
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.footer-icon{
+    margin-bottom: 20px;
+}
+.fa-brands{
+    color: gray;
+    margin: 5px;
+}
+.fa-solid{
+    font-size: 15px;
+    color: #6C6C6C;
+}

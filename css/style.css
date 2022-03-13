@@ -17,6 +17,7 @@ body{
     background-color: #2D25A0;
     width: 100%;
     height: 677px;
+    margin-bottom: 70px;
 }
 .text-area{
     margin-left: 156px;
@@ -51,4 +52,36 @@ body{
 .image-area img{
     width: 556.01px;
     height: 438px;
+}
+
+/* players area styles */
+
+.players-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px 180px;
+}
+.players{
+    width: 330px;
+    height: 474px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players img{
+    width: 300px;
+    height: 256px;
+}
+.players h1{
+    color: #18191F;
+    font-weight: 700;
+    font-size: 28px;
+    /* line-height: 40px;    */
+}
+.players p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
 }

@@ -85,3 +85,46 @@ body{
     line-height: 26px;
     color: #6C6C6C;
 }
+
+/* match highlight area styles */
+.highlight-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* margin-left: 182px; */
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.highlight-text {
+    width: 469px;
+    height: 309px;
+}
+.highlight-text h1{
+    font-weight: 700, bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+    /* margin: 8px 0px; */
+}
+.highlight-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.highlight-text{
+    /* margin-left: 182px; */
+    margin: 0;
+} 
+.highlight-image{
+    margin-left: 66px;
+    margin-right: 0;
+}
+.highlight-image img{
+    width: 567px;
+    height: 427px; 
+}
+
+/* footer area styles */
+

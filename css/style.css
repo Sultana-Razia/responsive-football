@@ -19,6 +19,22 @@ body{
     height: 677px;
     margin-bottom: 70px;
 }
+
+@keyframes sliding {
+    from {
+        background-color: slateblue;
+        left: 0;
+    }
+
+    to {
+        background-color: skyblue;
+        left: 200px;
+    }
+}
+.banner-area:hover{
+    animation: sliding 1s ease-in-out 0.5s infinite alternate;
+    /* animation-play-state: running; */
+}
 .text-area{
     margin-left: 156px;
 }
@@ -86,6 +102,35 @@ body{
     color: #6C6C6C;
 }
 
+/* men's fixtures styles */
+
+.league{
+    margin-left: 80px;
+    background-color: #2d25a0b4;
+    color: white;
+    padding: 10px;
+    width: 210px;
+    border-radius: 25px;
+}
+.leagues-area{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #2D25A0;
+    padding: 25px;
+}
+.match-time{
+    margin-bottom: 60px;
+    line-height: 5px;
+}
+.club-name{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* match highlight area styles */
 .highlight-area{
     display: flex;
@@ -147,7 +192,7 @@ body{
     color: gray;
     margin: 5px;
 }
-.fa-solid{
+.fa-copyright{
     font-size: 15px;
     color: #6C6C6C;
 }
